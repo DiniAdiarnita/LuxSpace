@@ -13,7 +13,6 @@
     .overlay.hoverable > * {
         @apply opacity-0;
     }
-
     .overlay.hoverable:hover > * {
         @apply opacity-100;
     }
@@ -22,15 +21,19 @@
         background-image: url("../images/design/icon-play.svg");
         top:50%; left:50%;
     }
-
     .hero .hero-image, .hero .hero-caption {
         min-height: 90vh;
     }
-
     .hero .hero-cta {
         @apply w-12 h-12;
         transform: translateX(-75px) translateY(-50%);
         background-size: 37.5%;
+    }
+    .card .card-shadow {
+         @apply transition duration-300 shadow-none h-full;
+    }
+    .card:hover .card-shadow {
+         @apply shadow-lg;
     }
 }
 
@@ -44,3 +47,12 @@
     }
 }
 
+@layer utilities {
+    .stretched-link {
+        @apply absolute inset-0 z-10 cursor-pointer;
+    }
+    .grid{
+        grid-auto-flow: dense; 
+        grid-auto-rows: minmax(180px, auto);
+    }
+}
