@@ -186,7 +186,12 @@
               <div class="px-4 w-2/12">
                 <div class="text-center">
                   <button data-delete-item="1" class="text-red-600 border-none focus:outline-none px-3 py-1">
-                    X
+                     <svg height="14pt" viewBox="0 0 365.71733 365" width="14pt" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="#f44336">
+                          <path d="m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0"></path>
+                          <path d="m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0"></path>
+                        </g>
+                      </svg>
                   </button>
                 </div>
               </div>
@@ -223,7 +228,12 @@
               <div class="px-4 w-2/12">
                 <div class="text-center">
                   <button data-delete-item="2" class="text-red-600 border-none focus:outline-none px-3 py-1">
-                    X
+                    <svg height="14pt" viewBox="0 0 365.71733 365" width="14pt" xmlns="http://www.w3.org/2000/svg">
+                      <g fill="#f44336">
+                        <path d="m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0"></path>
+                        <path d="m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0"></path>
+                      </g>
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -260,7 +270,12 @@
               <div class="px-4 w-2/12">
                 <div class="text-center">
                   <button data-delete-item="3" class="text-red-600 border-none focus:outline-none px-3 py-1">
-                    X
+                   <svg height="14pt" viewBox="0 0 365.71733 365" width="14pt" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#f44336">
+                      <path d="m356.339844 296.347656-286.613282-286.613281c-12.5-12.5-32.765624-12.5-45.246093 0l-15.105469 15.082031c-12.5 12.503906-12.5 32.769532 0 45.25l286.613281 286.613282c12.503907 12.5 32.769531 12.5 45.25 0l15.082031-15.082032c12.523438-12.480468 12.523438-32.75.019532-45.25zm0 0"></path>
+                      <path d="m295.988281 9.734375-286.613281 286.613281c-12.5 12.5-12.5 32.769532 0 45.25l15.082031 15.082032c12.503907 12.5 32.769531 12.5 45.25 0l286.632813-286.59375c12.503906-12.5 12.503906-32.765626 0-45.246094l-15.082032-15.082032c-12.5-12.523437-32.765624-12.523437-45.269531-.023437zm0 0"></path>
+                    </g>
+                  </svg>
                   </button>
                 </div>
               </div>
@@ -270,7 +285,7 @@
         <!-- END: Shipping Cart -->
 
         <!-- START: Shipping  Details Cart -->
-        <div class="w-full md:px-4 md:w-4/12">
+        <div class="w-full md:px-4 md:w-4/12" id="shipping-detail">
           <div class="bg-gray-100 px-4 py-6 md:p-8 md:rounded-3xl">
             <form action="success.html">
               <div class="flex flex-start mb-6">
@@ -282,39 +297,39 @@
               <!-- START: Input Complete Name -->
               <div class="flex flex-col mb-">
                 <label for="complete-name" class="text-sm mb-2">Complete Name</label>                  
-                <input type="text" id="complete-name" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your name"/>
+                <input data-input type="text" id="complete-name" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your name"/>
               </div>
               <!-- END: Input Complete Name -->
 
               <!-- START: Input Email Address -->
               <div class="flex flex-col mb-">
                 <label for="email-address" class="text-sm mb-2">Email Address</label>                  
-                <input type="email" id="email-address" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your email address"/>
+                <input data-input type="email" id="email-address" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your email address"/>
               </div>
               <!-- END: Input Email Address -->
 
               <!-- START: Input Address -->
               <div class="flex flex-col mb-">
                 <label for="address" class="text-sm mb-2">Address</label>                  
-                <input type="text" id="address" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your address"/>
+                <input data-input type="text" id="address" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your address"/>
               </div>
               <!-- END: Input Address -->
 
               <!-- START: Input Phone Number -->
               <div class="flex flex-col mb-">
                 <label for="phone-number" class="text-sm mb-2">Phone Number</label>                  
-                <input type="tel" id="phone-number" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your phone number"/>
+                <input data-input type="tel" id="phone-number" class="border border-gray-200 rounded-lg px-4 py-2 bg-white text-sm focus:border-blue-200 focus:outline-none" placeholder="Input your phone number"/>
               </div>
               <!-- END: Input Phone Number -->
 
               <!-- START: Input Choose Courier -->
-              <div class="flex flex-col mb-">
+              <div class="flex flex-col mb-4">
                 <label class="text-sm mb-2">Choose Courier</label>                  
                 <div class="flex -mx-2 flex-wrap">
                  
                   <!-- START: Courier 1 -->
                   <div class="px-2 w-6/12 h-24 mb-4">
-                    <button type="button" class="border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
+                    <button data-value="fedex" data-name="courier" type="button" class="border-gray-200 focus:outline-none focus:bg-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
                       <img src="./images/content/courier/logo-fedex.png" alt="fedex" class="object-contain max-h-full">
                     </button>
                   </div>
@@ -322,7 +337,7 @@
 
                   <!-- START: Courier 2 -->
                   <div class="px-2 w-6/12 h-24 mb-4">
-                    <button type="button" class="border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
+                    <button data-value="dhl" data-name="courier" type="button" class="border-gray-200 focus:outline-none focus:bg-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
                       <img src="./images/content/courier/logo-dhl.png" alt="dhl" class="object-contain max-h-full">
                     </button>
                   </div>
@@ -339,7 +354,7 @@
                  
                   <!-- START: Payment 1 -->
                   <div class="px-2 w-6/12 h-24 mb-4">
-                    <button type="button" class="border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
+                    <button data-value="midtrans" data-name="payment" type="button" class="border-gray-200 focus:outline-none focus:bg-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
                       <img src="./images/content/payment/logo-midtrans.png" alt="midtrans" class="object-contain max-h-full">
                     </button>
                   </div>
@@ -347,7 +362,7 @@
 
                   <!-- START: Payment 2 -->
                   <div class="px-2 w-6/12 h-24 mb-4">
-                    <button type="button" class="border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
+                    <button data-value="mastercard" data-name="payment" type="button" class="border-gray-200 focus:outline-none focus:bg-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
                       <img src="./images/content/payment/logo-master-card.png" alt="master card" class="object-contain max-h-full">
                     </button>
                   </div>
@@ -355,7 +370,7 @@
 
                   <!-- START: Payment 3 -->
                   <div class="px-2 w-6/12 h-24 mb-4">
-                    <button type="button" class="border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
+                    <button data-value="bitcoin" data-name="payment" type="button" class="border-gray-200 focus:outline-none focus:bg-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
                       <img src="./images/content/payment/logo-bitcoin.png" alt="bitcoin" class="object-contain max-h-full">
                     </button>
                   </div>
@@ -363,7 +378,7 @@
 
                   <!-- START: Payment 4 -->
                   <div class="px-2 w-6/12 h-24 mb-4">
-                    <button type="button" class="border-gray-200 focus:outline-none focus:border-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
+                    <button data-value="american-express" data-name="payment" type="button" class="border-gray-200 focus:outline-none focus:bg-red-200 flex items-center justify-center rounded-xl bg-white w-full h-full">
                       <img src="./images/content/payment/logo-american-express.png" alt="american express" class="object-contain max-h-full">
                     </button>
                   </div>
@@ -373,7 +388,7 @@
               <!-- END: Input Choose Payment -->
 
               <div class="text-center">
-                <button type="submit" class="bg-gray-300 text-gray-400 focus:bg-red-200 focus:outline-none w-full py-3 rounded-full text-lg focus:text-black transition-all duration-200 px-6">
+                <button type="submit" disabled class="bg-pink-400 text-black focus:bg-black focus:outline-none w-full py-3 rounded-full text-lg focus:text-pink-400 transition-all duration-200 px-6">
                   Checkout Now
                 </button>
               </div>
